@@ -40,6 +40,7 @@ function load_data(offset) {
 				var movie_or_serial_type=field.movie_or_serial_type;
 	        	var creation_dt=field.creation_dt;
 				var category_name=field.category_name;
+				var movie_photo_link=field.movie_photo_link;
 				
 				var dir = "";
 				
@@ -50,7 +51,7 @@ function load_data(offset) {
 				}*/
 				
 				img_value = ImgURL+dir+"/"+photo_path; //alert(img_value);
-	           $("#photoslist").append('<li><a rel="gallery-3" href="'+img_value+'" title="'+photo_title+'" class="swipebox"><img width="120" height="100" src="'+img_value+'" alt="image"/></a></li>');
+	           $("#photoslist").append('<li><a href="'+movie_photo_link+'" title="'+photo_title+'" target="_blank"><img width="120" height="100" src="'+img_value+'" alt="image"/></a></li>');
 				}
 	        });
 			$(".swipebox").swipebox();
