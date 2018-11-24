@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="in.org.unionchurch.unionchurch" version="3.1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="in.org.unionchurch.unionchurch" version="3.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Union Church</name>
     <description>This is a Church App Specifically Designed for Members to stay updated with the Church Activities.</description>
     <author email="support@pocketapp.in" href="http://pocketapp.in">PocketApp.in</author>
