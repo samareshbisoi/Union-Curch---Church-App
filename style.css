@@ -60,7 +60,8 @@ font-size: 13px;
 line-height: 1.4;
 width: 100%;
 -webkit-text-size-adjust: 100%;
-overflow: hidden;
+overflow: auto;/*hidden*/
+-webkit-overflow-scrolling:touch;
 font-weight:300;
 }
 .clear{ 
